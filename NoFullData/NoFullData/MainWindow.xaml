@@ -1,0 +1,49 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NoFullData"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="NoFullData.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="1250"
+        DataContext="{Binding RelativeSource={RelativeSource Self}}">
+    <Grid>
+        <Menu Height="18" VerticalAlignment="Top">
+            <MenuItem Header="Файл">
+                <MenuItem x:Name="FileLoad" Header="Загрузить файл" Click="FileLoad_Click" />
+                <MenuItem x:Name="CreateSample" Header="Сгенерировать обучающую выборку" Click="CreateSample_Click" />
+                <MenuItem x:Name="FileClose" Header="Закрыть файл" Click="FileClose_Click" />
+                <Separator />
+                <MenuItem x:Name="Clear" Header="Сбросить" Click="Clear_Click"/>
+                <Separator />
+                <MenuItem x:Name="Exit" Header="Выход" Click="Exit_Click" />
+            </MenuItem>
+            <MenuItem Header="Алгоритмы">
+                <MenuItem x:Name="SimpleMethod" Header="Тривиальный метод">
+                    <MenuItem x:Name="AnalyzeSM" Header="Анализировать" Click="AnalyzeSM_Click"/>
+                    <MenuItem x:Name="TrainSM" Header="Обучить" Click="TrainSM_Click"/>
+                    <MenuItem x:Name="StatisticSM" Header="Статистика" Click="StatisticSM_Click"/>
+                </MenuItem>
+                <MenuItem x:Name="MiddleMethod" Header="Метод средних значений">
+                    <MenuItem x:Name="AnalyzeMM" Header="Анализировать" Click="AnalyzeMM_Click"/>
+                    <MenuItem x:Name="TrainMM" Header="Обучить" Click="TrainMM_Click"/>
+                    <MenuItem x:Name="StatisticMM" Header="Статистика" Click="StatisticMM_Click"/>
+                </MenuItem>
+                <MenuItem x:Name="CaseMethod" Header="Метод контейнеров">
+                    <MenuItem x:Name="AnalyzeCM" Header="Анализировать" Click="AnalyzeCM_Click"/>
+                    <MenuItem x:Name="TrainCM" Header="Обучить" Click="TrainCM_Click"/>
+                    <MenuItem x:Name="StatisticCM" Header="Статистика" Click="StatisticCM_Click"/>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <DataGrid x:Name="dataGrid" Margin="10,23,10.2,10.4" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Input}" CanUserSort="False" CanUserReorder="False" ClipboardContentBinding="{x:Null}" Header="Входные данные" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding Prep}" CanUserSort="False" CanUserReorder="False" ClipboardContentBinding="{x:Null}" Header="Преобразованные данные" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding Res}" CanUserSort="False" CanUserReorder="False" CanUserResize="False" ClipboardContentBinding="{x:Null}" Header="Результат" IsReadOnly="True" Width="70"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>

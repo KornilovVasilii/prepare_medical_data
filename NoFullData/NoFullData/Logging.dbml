@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Logs" Class="LoggingDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Logs.mdf;Integrated Security=True" SettingsObjectName="NoFullData.Properties.Settings" SettingsPropertyName="LogsConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.NeuroLogs" Member="NeuroLogs">
+    <Type Name="NeuroLog">
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="[Log]" Member="Log" Type="System.String" DbType="NText NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+    </Type>
+  </Table>
+</Database>

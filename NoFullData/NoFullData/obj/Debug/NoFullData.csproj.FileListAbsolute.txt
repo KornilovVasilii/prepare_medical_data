@@ -1,0 +1,15 @@
+C:\Users\Simon Riley\Documents\Study\Нейросети\Дипломная\NoFullData\NoFullData\bin\Debug\NoFullData.exe.config
+C:\Users\Simon Riley\Documents\Study\Нейросети\Дипломная\NoFullData\NoFullData\bin\Debug\NoFullData.exe
+C:\Users\Simon Riley\Documents\Study\Нейросети\Дипломная\NoFullData\NoFullData\bin\Debug\NoFullData.pdb
+C:\Users\Simon Riley\Documents\Study\Нейросети\Дипломная\NoFullData\NoFullData\obj\Debug\NoFullData.csprojResolveAssemblyReference.cache
+C:\Users\Simon Riley\Documents\Study\Нейросети\Дипломная\NoFullData\NoFullData\obj\Debug\MainWindow.g.cs
+C:\Users\Simon Riley\Documents\Study\Нейросети\Дипломная\NoFullData\NoFullData\obj\Debug\App.g.cs
+C:\Users\Simon Riley\Documents\Study\Нейросети\Дипломная\NoFullData\NoFullData\obj\Debug\NoFullData_Content.g.cs
+C:\Users\Simon Riley\Documents\Study\Нейросети\Дипломная\NoFullData\NoFullData\obj\Debug\NoFullData_MarkupCompile.cache
+C:\Users\Simon Riley\Documents\Study\Нейросети\Дипломная\NoFullData\NoFullData\obj\Debug\NoFullData_MarkupCompile.lref
+C:\Users\Simon Riley\Documents\Study\Нейросети\Дипломная\NoFullData\NoFullData\obj\Debug\MainWindow.baml
+C:\Users\Simon Riley\Documents\Study\Нейросети\Дипломная\NoFullData\NoFullData\obj\Debug\NoFullData.g.resources
+C:\Users\Simon Riley\Documents\Study\Нейросети\Дипломная\NoFullData\NoFullData\obj\Debug\NoFullData.Properties.Resources.resources
+C:\Users\Simon Riley\Documents\Study\Нейросети\Дипломная\NoFullData\NoFullData\obj\Debug\NoFullData.csproj.GenerateResource.Cache
+C:\Users\Simon Riley\Documents\Study\Нейросети\Дипломная\NoFullData\NoFullData\obj\Debug\NoFullData.exe
+C:\Users\Simon Riley\Documents\Study\Нейросети\Дипломная\NoFullData\NoFullData\obj\Debug\NoFullData.pdb
